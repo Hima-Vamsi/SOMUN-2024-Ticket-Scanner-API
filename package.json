@@ -1,0 +1,25 @@
+{
+  "name": "somun-2024-ticket-scanner-api",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hima-Vamsi/SOMUN-2024-Ticket-Scanner-API.git"
+  },
+  "author": "Katta Hima Vamsi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hima-Vamsi/SOMUN-2024-Ticket-Scanner-API/issues"
+  },
+  "homepage": "https://github.com/Hima-Vamsi/SOMUN-2024-Ticket-Scanner-API#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.1",
+    "nodemon": "^3.1.7"
+  }
+}
