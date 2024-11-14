@@ -51,7 +51,7 @@ app.get("/user/:transactionId", async (req, res) => {
       transactionId: req.params.transactionId,
     });
     if (user) return res.json(user);
-    res.status(404).send("User not found");
+    res.status(303).send("User not found");
   } catch (error) {
     res.status(500).send("Server error");
   }
