@@ -6,9 +6,12 @@ const app = express();
 app.use(express.json());
 
 const port = process.env.PORT || 3000;
+
 const mongoConnectionString = process.env.MONGO_CONNECTION_STRING;
 
-mongoose.connect(mongoConnectionString);
+mongoose.connect(mongoConnectionString, {
+  dbName: "SOMUN",
+});
 
 const UserSchema = new mongoose.Schema({
   name: String,
